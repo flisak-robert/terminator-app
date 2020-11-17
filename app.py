@@ -1,18 +1,8 @@
 #!/usr/bin/python3
 
 from flask import Flask, render_template
-import deathbycaptcha
-import array
-from flask import Flask, render_template
-import random
-from telegram.ext import Updater, InlineQueryHandler, CommandHandler, MessageHandler, Filters, CallbackQueryHandler, ConversationHandler
-from telegram import ReplyKeyboardRemove,ReplyKeyboardMarkup,InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton
-from telegram_bot_pagination import InlineKeyboardPaginator
 import requests
-import re
 from bs4 import BeautifulSoup
-import sys
-from binascii import a2b_base64
 
 app = Flask(__name__)
 
